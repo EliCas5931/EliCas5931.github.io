@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+header {
+
+}
+
+section {
+
+}
+
+hr {
+    padding: 20px;
+    background-color: #cccccc;
+
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    
+}
+
+aside {
+    background: #4aaaa5;
+    float: left;
+}
+
+.topTabs {
+
+}
+
+.topHeader {
+    text-align: right;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border: 2px solid #dddddd;
+}
+
+footer {
+    border-top: 2px solid #4aaaa5;
+    background-color: #cccccc;
+    clear: both;
+    padding: 0px;
+    text-align: center;
+}

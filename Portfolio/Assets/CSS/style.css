@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    background-color: #DFDBE5;
+    background-image: url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 0h2v20H9V0zm25.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm-20 20l1.732 1-10 17.32-1.732-1 10-17.32zM58.16 4.134l1 1.732-17.32 10-1-1.732 17.32-10zm-40 40l1 1.732-17.32 10-1-1.732 17.32-10zM80 9v2H60V9h20zM20 69v2H0v-2h20zm79.32-55l-1 1.732-17.32-10L82 4l17.32 10zm-80 80l-1 1.732-17.32-10L2 84l17.32 10zm96.546-75.84l-1.732 1-10-17.32 1.732-1 10 17.32zm-100 100l-1.732 1-10-17.32 1.732-1 10 17.32zM38.16 24.134l1 1.732-17.32 10-1-1.732 17.32-10zM60 29v2H40v-2h20zm19.32 5l-1 1.732-17.32-10L62 24l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM111 40h-2V20h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zM40 49v2H20v-2h20zm19.32 5l-1 1.732-17.32-10L42 44l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM91 60h-2V40h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM39.32 74l-1 1.732-17.32-10L22 64l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM71 80h-2V60h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM120 89v2h-20v-2h20zm-84.134 9.16l-1.732 1-10-17.32 1.732-1 10 17.32zM51 100h-2V80h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM100 109v2H80v-2h20zm19.32 5l-1 1.732-17.32-10 1-1.732 17.32 10zM31 120h-2v-20h2v20z' fill='%234aaaa5' fill-opacity='0.71' fill-rule='evenodd'/%3E%3C/svg%3E");
+    margin: 0;
+
+}
+
+header {
+    height: 80px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    font-family: Georgia, Times, 'Times New Roman', serif
+}
+
+aside {
+    float: left;
+    height: 80px;
+    width: 240px;
+    background-color: #4aaaa5;
+    color: #fff;
+    border: 1px solid #cccccc;
+    margin-left: 200px;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 3px;
+    border-right: 1px solid #cccccc;
+}
+
+#brokenTab {
+    border-right: none;
+}
+
+#tabs {
+    float: right;
+    height: 80px;
+    width: 240px;
+    margin-right: 18.5%;
+    text-align: right;
+    padding: 8px;
+}
+
+section {
+    float: left;
+    margin-left: 200px;
+    width: 960px;
+    height: 500px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+#topLeftWord {
+    left: 220px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    padding: 0px 40px;
+}
+
+hr {
+    left: 240px;
+    top: 440px;
+    background-color: #cccccc;
+    top: 120px;
+    width: 92%;
+    height: 5px;
+    border: 0;
+}
+
+#picture {
+    float: left;
+    height: 240px;
+    width: 240px;
+    padding: 20px 20px 10px 40px;
+}
+
+#textRight {
+    text-align: justify;
+    font-size: 16px;
+    color: #777777;
+    height: 200px;
+    width: 960px;
+    padding: 5px 40px 20px 40px;
+    letter-spacing: 1px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #666666;
+    border-top: 10px solid #4aaaa5;
+    width: 100%;
+    height: 60px;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    height: 200px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 0 0 0 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+input[type=text], select, textarea {
+    width: 96%; 
+    padding: 0 12px 12px 0;  
+    border: 1px solid #ccc; 
+    box-sizing: border-box;
+    margin: 6px 20px 16px 0px;
+  }
+  
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+  }
+  
+ #port {
+    float: left;
+    margin-left: 200px;
+    width: 960px;
+    height: 580px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+ }
+
+ .grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+     grid-gap: 20px;
+     align-items: stretch;
+     padding: 10px 40px 20px 40px;
+ }
+
+ 
