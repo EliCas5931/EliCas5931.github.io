@@ -239,20 +239,46 @@ input[type=submit] {
   #main-container {
     padding: 0;
   }
+  .work {
+    width: 100%;
+  }
+  #masthead {
+    overflow: hidden;
+  }
 }
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
+  header {
+    width: 100%;
+    padding: 0 20px;
+  }
   img.auth-image {
     width: 50%;
   }
   .work {
     float: left;
-    width: 50%;
+    width: 45%;
+    column-count: 1;
+    overflow: hidden;
+    margin-right: 25px;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
-  body {
-    width: 75%;
-  }
+ header {
+   width: 100%;
+   padding: 0 40px;
+ }
+ #main-container {
+   width: 60%;
+   float: left;
+   margin-left: 40px;
+   padding: 0;
+ }
+ .work {
+   float: left;
+   width: 45%;
+   overflow: hidden;
+   margin-right: 9px;
+ }
 }
