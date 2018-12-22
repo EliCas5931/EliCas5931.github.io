@@ -1,0 +1,97 @@
+body {
+    background-repeat: no-repeat;
+    background-image: url("https://www.presentationmagazine.com/images3/businesslinescolours1024.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+}
+
+#header {
+    height: 80px;
+    width: 350px;
+    background-color: #C359A7;
+    color: black;
+    float: left;
+    text-align: center;
+    border-radius: 15px 50px;
+    padding: 10px;
+}
+
+#instructions {
+    height: 460px;
+    width: 30%;
+    margin-top: 100px;
+    font-size: 16px;
+    border-radius: 15px 50px;
+    background-color: #C359A7;
+    padding: 15px;
+}
+
+.crystals {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.crystal {
+    background-size: 200px 200px;
+    border: 1px solid #C359A7;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+#crystal0 {
+    background-image: url(../Images/crystal1.jpeg)
+}
+
+#crystal1 {
+    background-image: url(../Images/crystal2.jpeg)
+}
+
+#crystal2 {
+    background-image: url(../Images/crystal3.jpeg)
+}
+
+#crystal3 {
+    background-image: url(../Images/crystal4.jpeg)
+}
+
+#numberTotal {
+    height:150px;
+    width: 400px;
+    border: 10px solid #C359A7;
+    border-radius: 15px;
+    font-size: 80px;
+    text-align: center;
+}
+
+#result {
+    background-color: #C359A7;
+    height: 100px;
+    width: 400px;
+    margin: 20px 0;
+    border-radius: 15px 50px;
+    padding: 10px;
+    font-size: 40px;
+}
+
+#scoreCount {
+    background-color: #C359A7;
+    border-radius: 15px 50px;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#yourScore {
+    background-color: #C359A7;
+    border-radius: 15px 50px;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+
